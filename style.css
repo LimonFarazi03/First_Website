@@ -189,8 +189,10 @@ button.SecondContactBtn a {
   background-position: 0px;
 
 }
-footer.lastPart {
+#lastPart {
   text-align: center;
-  margin: 15px 0px 20px 0px;
-  color: dimgray;
+  margin: 15px 0px 0px 0px;
+  color: white;
+  padding: 15px 0px;
+  background: #6A4ADB;
 }
