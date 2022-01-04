@@ -128,3 +128,8 @@ button.SecondContactBtn a {
   font-size: 15px;
   font-weight: 700;
 }
+#secondBg{
+  background:url('images/dream-bg.png');
+  background-repeat: no-repeat;
+  background-position: right;
+}
