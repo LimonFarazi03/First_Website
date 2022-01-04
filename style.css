@@ -140,6 +140,9 @@ button.SecondContactBtn a {
   padding: 20px;
   border-radius: 5px;
   margin: 0px 0px 40px 0px;
+  border-left: 10px solid;
+  border-image: linear-gradient(#915449,#F9765F);
+  border-image-slice:1;
 }
 
 .secondBox {
@@ -149,6 +152,9 @@ button.SecondContactBtn a {
   padding: 20px;
   border-radius: 5px;
   margin: 0px 0px 40px 0px;
+  border-left: 10px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice:1;
 }
 
 .Boxes {
@@ -176,4 +182,10 @@ button.SecondContactBtn a {
   margin: 18px 0px;
   font-size: 45px;
   text-transform: uppercase;
+}
+#experienceArea{
+  background:url('images/exp-bg.png');
+  background-repeat: no-repeat;
+  background-position: 0px;
+
 }
