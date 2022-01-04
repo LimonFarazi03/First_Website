@@ -58,7 +58,7 @@ body{
   text-align: justify;
   color: dimgray;
 }
-button.contactBtn {
+.contactBtn {
   border: none;
   outline: none;
   background: linear-gradient(45deg, lightsalmon, tomato);
@@ -70,6 +70,11 @@ button.contactBtn {
   border-radius: 5px;
   cursor: pointer;
   font-weight: 700;
+  transition: .5s;
+
+}
+.contactBtn:hover{
+  background: linear-gradient(45deg, tomato,lightsalmon);
 }
 .topBarWrapper{
   overflow: hidden;
@@ -120,6 +125,11 @@ button.SecondContactBtn {
   outline: none;
   border-radius: 5px;
   margin: 20px 0px 0px 0px;
+  transition: .5s;
+  cursor: pointer;
+}
+.SecondContactBtn:hover{
+  background: linear-gradient(45deg, tomato,lightsalmon);
 }
 button.SecondContactBtn a {
   text-decoration: none;
