@@ -143,8 +143,13 @@ button.SecondContactBtn a {
   border-left: 10px solid;
   border-image: linear-gradient(#915449,#F9765F);
   border-image-slice:1;
+  transition: .7s;
+  cursor: pointer;
 }
-
+.firstBox:hover{
+  border-image: linear-gradient(#F9765F,#915449);
+  border-image-slice:1;
+}
 .secondBox {
   width: 500px;
   float: right;
@@ -155,8 +160,13 @@ button.SecondContactBtn a {
   border-left: 10px solid;
   border-image: linear-gradient(blue, cyan);
   border-image-slice:1;
+  transition: .7s;
+  cursor: pointer;
 }
-
+.secondBox:hover{
+  border-image: linear-gradient(cyan,blue);
+  border-image-slice:1;
+}
 .Boxes {
   padding: 0px 70px;
 }
@@ -195,4 +205,5 @@ button.SecondContactBtn a {
   color: white;
   padding: 15px 0px;
   background: #6A4ADB;
+  cursor: pointer;
 }
